@@ -3,9 +3,10 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class proses {
-
+    //method untuk menambah data ke dalam list
     public void tambah(ArrayList<mahasiswa> list, String nik, String nama, String kelamin, String nim, String fakultas,
             String prodi, String universitas, String email) {
+        //mengset data
         mahasiswa mahasiswa = new mahasiswa();
         mahasiswa.setnik(nik);
         mahasiswa.setnama(nama);
@@ -15,12 +16,13 @@ public class proses {
         mahasiswa.setprodi(prodi);
         mahasiswa.setuni(universitas);
         mahasiswa.setprodi(prodi);
-
+        //add object ke dalam list
         list.add(mahasiswa);
     }
 
-    //
+    //method untuk menampilkan data di dalam list menggunakan for loop
     public void tampil(ArrayList<mahasiswa> list) {
+        
         int i = 0;
         for (i = 0; i < list.size(); i++) {
             System.out.println("Data ke " + Integer.toString(i + 1));
