@@ -1,4 +1,4 @@
-
+//import library
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -8,6 +8,7 @@ public class main {
         ArrayList<mahasiswa> list = new ArrayList<>();// membuat list untuk tampungan
         Scanner sc = new Scanner(System.in);// untun input
         String nik, nama, kelamin, universitas, email, nim, fakultas, prodi;// variabel tampungan input
+        //meminta masukkan kepada user
         System.out.print("NIK :");
         nik = sc.next();
         System.out.print("nama :");
