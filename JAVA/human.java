@@ -1,16 +1,19 @@
-
+//class human
 public class human {
+    //atribut private
     private String nik;
     private String nama;
     private String kelamin;
 
+       //atribut public
+    //constructor
     public human() {
         this.nik = "";
         this.nama = "";
         this.kelamin = "";
 
     }
-
+    //setter dan getter
     public void setnama(String nama) {
         this.nama = nama;
     }
