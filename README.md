@@ -10,7 +10,9 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
 * SivitasAkademik: asal_universitas, email_edu
 
 ## Desain Program
-Desain Program dibagi menjadi 4 class yaitu human, sivitas, mahasiswa, dan proses. Mahasiswa merupakan chiild dari sivitas dan sivitas adalah child dari human. Alasan dari design tersebut adalah karena mahasiswa adalah bagian dari sivitas dan sivitas adalah bagian dari human
+Desain Program dibagi menjadi 4 class yaitu human, sivitas, mahasiswa, dan proses. Mahasiswa merupakan chiild dari sivitas dan sivitas adalah child dari human. Alasan dari design tersebut adalah karena mahasiswa adalah bagian dari sivitas dan sivitas adalah bagian dari human. Ketiga class tersebut bisa saling berhubungan inheritance karena tiap class merupakan objek yang sama yaitu manusia, memiliki atribut yang sama, dan ada atribut tambahan untuk setiap childnya.
+
+
 1. Human
 
   Terdapat 3 atribut pada kelas Mhs dan juga method Setter dan Getter untuk tiap atribut
@@ -48,5 +50,10 @@ Desain Program dibagi menjadi 4 class yaitu human, sivitas, mahasiswa, dan prose
  * Java
  
  ![ss](https://user-images.githubusercontent.com/100756191/218930571-41a36cc2-a06d-4c36-9917-aaa429e7d4ca.png)
+ 
+ * PHP
+ 
+ ![image](https://user-images.githubusercontent.com/100756191/220173105-b2820466-c87c-4247-9a2b-6b8d0c8e87c7.png)
+
 
 
