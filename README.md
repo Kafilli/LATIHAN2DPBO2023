@@ -12,6 +12,11 @@ Buatlah program berbasis OOP menggunakan bahasa pemrograman C++, Java, Python, d
 ## Desain Program
 Desain Program dibagi menjadi 4 class yaitu human, sivitas, mahasiswa, dan proses. Mahasiswa merupakan chiild dari sivitas dan sivitas adalah child dari human. Alasan dari design tersebut adalah karena mahasiswa adalah bagian dari sivitas dan sivitas adalah bagian dari human. Ketiga class tersebut bisa saling berhubungan inheritance karena tiap class merupakan objek yang sama yaitu manusia, memiliki atribut yang sama, dan ada atribut tambahan untuk setiap childnya.
 
+Desain Algoritma Menggunakan uml
+
+![UML drawio](https://user-images.githubusercontent.com/100756191/220174902-8bede0d3-36c1-4159-810d-ae518eb9bad7.png)
+
+
 
 1. Human
 
